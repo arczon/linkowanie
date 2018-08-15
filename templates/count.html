@@ -1,0 +1,15 @@
+
+{{ count }}
+<br />
+
+<a href="{% url 'home'%}">start agin</a>
+
+
+
+{% for word, countotal in sortedwords %}
+{{ word }} - {{ countotal }}
+<br />
+
+
+
+{% endfor %}
